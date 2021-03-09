@@ -1,0 +1,16 @@
+{
+  "name": "Stabile Samuele Orario 5°A",
+  "version": "1.0",
+  "description": "made by Samuele Stabile",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Stabile Samuele"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "css": ["style.css"]
+  },
+
+  "manifest_version": 2
+}
